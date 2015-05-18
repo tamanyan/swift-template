@@ -1,0 +1,12 @@
+[submodule "Vendor/Alamofire"]
+	path = Vendor/Alamofire
+	url = git@github.com:Alamofire/Alamofire.git
+[submodule "Vendor/emitter-kit"]
+	path = Vendor/emitter-kit
+	url = git@github.com:aleclarson/emitter-kit.git
+[submodule "Vendor/PromiseKit"]
+	path = Vendor/PromiseKit
+	url = git@github.com:mxcl/PromiseKit.git
+[submodule "Vendor/SwiftyJSON"]
+	path = Vendor/SwiftyJSON
+	url = git@github.com:SwiftyJSON/SwiftyJSON.git
