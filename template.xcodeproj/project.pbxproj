@@ -157,7 +157,7 @@
 		2312293B1B0A38E700A2C0EB /* SwiftyJSON.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftyJSON.xcodeproj; path = Vendor/SwiftyJSON/SwiftyJSON.xcodeproj; sourceTree = "<group>"; };
 		23D248171B0A2F0F00C64AFB /* template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = template.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23D2481B1B0A2F0F00C64AFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		23D2481C1B0A2F0F00C64AFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		23D2481C1B0A2F0F00C64AFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Classes/AppDelegate.swift; sourceTree = "<group>"; };
 		23D2481E1B0A2F0F00C64AFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		23D248231B0A2F0F00C64AFB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		23D248261B0A2F0F00C64AFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -197,6 +197,55 @@
 				EB4E109B47DC881707C7FAAB /* libPods-template.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		230CC5861B0A421400E05C47 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				230CC58B1B0A427F00E05C47 /* Core */,
+				230CC58A1B0A423D00E05C47 /* Extensions */,
+				230CC5891B0A423800E05C47 /* Views */,
+				230CC5881B0A423100E05C47 /* Controllers */,
+				230CC5871B0A422900E05C47 /* Models */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		230CC5871B0A422900E05C47 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		230CC5881B0A423100E05C47 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				23D2481E1B0A2F0F00C64AFB /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		230CC5891B0A423800E05C47 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		230CC58A1B0A423D00E05C47 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extensions;
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		230CC58B1B0A427F00E05C47 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 		231228F61B0A360C00A2C0EB /* Products */ = {
@@ -271,8 +320,8 @@
 		23D248191B0A2F0F00C64AFB /* template */ = {
 			isa = PBXGroup;
 			children = (
+				230CC5861B0A421400E05C47 /* Classes */,
 				23D2481C1B0A2F0F00C64AFB /* AppDelegate.swift */,
-				23D2481E1B0A2F0F00C64AFB /* ViewController.swift */,
 				23D248231B0A2F0F00C64AFB /* Images.xcassets */,
 				23D248251B0A2F0F00C64AFB /* LaunchScreen.xib */,
 				23D2481A1B0A2F0F00C64AFB /* Supporting Files */,

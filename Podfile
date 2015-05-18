@@ -11,6 +11,6 @@ target 'template' do
 end
 
 target 'templateTests' do
-
+  pod 'Kiwi'
 end
 
