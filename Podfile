@@ -7,7 +7,11 @@ target 'template' do
   pod 'SDWebImage', :git => 'git@github.com:rs/SDWebImage.git'
   pod 'SDWebImage/WebP', :git => 'git@github.com:rs/SDWebImage.git'
   pod 'BlocksKit' # for action sheet
-  pod 'TMCache'
+  pod 'TSMessages'
+  pod 'M13ProgressSuite'
+  pod 'CocoaLumberjack'
+  pod 'MMDrawerController'
+  # pod 'CKCircleMenuView'
 end
 
 target 'templateTests' do
